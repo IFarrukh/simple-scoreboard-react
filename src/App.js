@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Player from "./components/Player";
 
-class App extends React.Component {
+class App extends Component {
   state = {
     players: [
       {
